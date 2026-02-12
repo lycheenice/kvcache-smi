@@ -20,6 +20,7 @@ KVCache-SMI 旨在提供：
 ## 文档
 
 - [架构设计文档 v0.1](docs/architecture_v0.1.md) - 详细的系统架构设计、现有方案调研和实现路线图
+- [Architecture Design Document v0.1 (English)](docs/architecture_v0.1_en.md) - System architecture, research, and roadmap
 
 ## 当前状态
 
