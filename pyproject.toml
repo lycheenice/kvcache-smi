@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kvcache-smi"
+version = "0.1.0"
+description = "KV cache estimator and monitor for LLM inference"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "KVCache-SMI Contributors"}]
+dependencies = []
+
+[project.scripts]
+kvcache-smi = "kvcache_smi.cli.main:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
